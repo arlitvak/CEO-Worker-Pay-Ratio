@@ -1,0 +1,60 @@
+ul.navbar{
+     padding: 0;
+}
+
+ul.navbar li{
+        display: inline;
+        background-color: black;
+        color: white;
+        padding: 10px 20px;
+        font: sans-serif;
+        text-decoration: none;
+        border-radius: 4px 4px 0 0;
+}
+
+.navbar-item {
+    text-decoration: line-through;
+}
+
+p{
+    text-align: center;
+    font: 13px sans-serif;
+}
+
+div.tooltip {   
+  position: absolute;           
+  text-align: left;           
+  width: 155px;
+  height: 80px;                 
+  padding: 2px;             
+  font: 12px sans-serif;        
+  background: aliceblue;   
+  border: 0px;      
+  border-radius: 8px;           
+  pointer-events: none;         
+}
+
+.axis line,
+.axis path {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+    font: 14px sans-serif;
+}
+
+.right {
+    float: right;
+}
+
+h1{
+    shape-rendering: crispEdges;
+}
+/*body {
+    background-color: #E0E0E0;
+}*/
+
+#circle-hover:hover {
+    opacity: 0.4;
+}
+
+
