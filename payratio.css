@@ -1,0 +1,58 @@
+
+h1 {
+    padding-top: 15;
+    padding-left: 230; 
+    font: 40px sans-serif;
+}
+
+h2 {
+    text-align: left;
+    padding-left: 80; 
+    padding-right: 950;
+    text-indent: 2.0em;  
+    font: 14px sans-serif;
+}
+
+hr {
+    left: 80px;
+    width: 850px;
+    stroke: "lightgrey";
+    position: absolute;
+    top: 70px;
+}
+
+
+div.tooltip {   
+  position: absolute;           
+  text-align: left;           
+  width: 165px;
+  height: 95px;                 
+  padding: 2px;             
+  font: 11.5px sans-serif;        
+  background: aliceblue;   
+  border: 0px;      
+  border-radius: 8px;           
+  pointer-events: none;         
+}
+
+.axis line,
+.axis path {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+    font: 14px sans-serif;
+}
+
+.right {
+    float: right;
+}
+
+h1{
+    shape-rendering: crispEdges;
+}
+
+#circle-hover:hover {
+    opacity: 0.4;
+}
+
+
